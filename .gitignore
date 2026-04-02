@@ -1,0 +1,13 @@
+*.pkl
+*.joblib
+dataset.csv
+*.exe
+*.dll
+*.bson
+samples/
+storage/
+__pycache__/
+*.pyc
+.env
+venv/
+.DS_Store
