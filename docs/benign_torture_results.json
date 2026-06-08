@@ -1,0 +1,534 @@
+{
+  "total_tested": 75,
+  "fp_count": 0,
+  "fp_rate_pct": 0.0,
+  "target_pct": 5.0,
+  "passed": true,
+  "results": [
+    {
+      "task_id": "100",
+      "tool": "curl.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.01,
+      "fp": "False"
+    },
+    {
+      "task_id": "101",
+      "tool": "Dxpserver.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "102",
+      "tool": "eudcedit.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "103",
+      "tool": "ipconfig.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "104",
+      "tool": "isoburn.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.01,
+      "fp": "False"
+    },
+    {
+      "task_id": "105",
+      "tool": "LicenseManagerShellext.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "106",
+      "tool": "mmc.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.04,
+      "fp": "False"
+    },
+    {
+      "task_id": "107",
+      "tool": "msdt.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "108",
+      "tool": "mspaint.exe (malscore=9.0)",
+      "verdict": "BENIGN",
+      "confidence": 0.37,
+      "fp": "False"
+    },
+    {
+      "task_id": "109",
+      "tool": "mstsc.exe (malscore=5.7)",
+      "verdict": "BENIGN",
+      "confidence": 0.15,
+      "fp": "False"
+    },
+    {
+      "task_id": "110",
+      "tool": "notepad.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.02,
+      "fp": "False"
+    },
+    {
+      "task_id": "111",
+      "tool": "PING.EXE",
+      "verdict": "BENIGN",
+      "confidence": 0.02,
+      "fp": "False"
+    },
+    {
+      "task_id": "112",
+      "tool": "rdpshell.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "113",
+      "tool": "rdpsign.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "114",
+      "tool": "regedit.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.01,
+      "fp": "False"
+    },
+    {
+      "task_id": "115",
+      "tool": "ScriptRunner.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.14,
+      "fp": "False"
+    },
+    {
+      "task_id": "116",
+      "tool": "sfc.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "117",
+      "tool": "SnippingTool.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.01,
+      "fp": "False"
+    },
+    {
+      "task_id": "118",
+      "tool": "svchost.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "119",
+      "tool": "SystemSettingsAdminFlows.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "120",
+      "tool": "Taskmgr.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "121",
+      "tool": "whoami.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "220",
+      "tool": "isoburn.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.01,
+      "fp": "False"
+    },
+    {
+      "task_id": "221",
+      "tool": "svchost.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "225",
+      "tool": "regedit.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.01,
+      "fp": "False"
+    },
+    {
+      "task_id": "226",
+      "tool": "7zr.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.04,
+      "fp": "False"
+    },
+    {
+      "task_id": "292",
+      "tool": "Everything.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.16,
+      "fp": "False"
+    },
+    {
+      "task_id": "293",
+      "tool": "filezilla.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.04,
+      "fp": "False"
+    },
+    {
+      "task_id": "294",
+      "tool": "processhacker.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.29,
+      "fp": "False"
+    },
+    {
+      "task_id": "295",
+      "tool": "python310_x86.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.29,
+      "fp": "False"
+    },
+    {
+      "task_id": "296",
+      "tool": "curl.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.01,
+      "fp": "False"
+    },
+    {
+      "task_id": "297",
+      "tool": "mspaint.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.22,
+      "fp": "False"
+    },
+    {
+      "task_id": "298",
+      "tool": "npp.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.06,
+      "fp": "False"
+    },
+    {
+      "task_id": "299",
+      "tool": "AnyDesk.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.34,
+      "fp": "False"
+    },
+    {
+      "task_id": "300",
+      "tool": "TeraCopy.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.31,
+      "fp": "False"
+    },
+    {
+      "task_id": "301",
+      "tool": "notepad++.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.01,
+      "fp": "False"
+    },
+    {
+      "task_id": "302",
+      "tool": "Dxpserver.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "303",
+      "tool": "WinMergeU.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.05,
+      "fp": "False"
+    },
+    {
+      "task_id": "304",
+      "tool": "ApproveChildRequest.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "305",
+      "tool": "notepad.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.02,
+      "fp": "False"
+    },
+    {
+      "task_id": "306",
+      "tool": "ScriptRunner.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.14,
+      "fp": "False"
+    },
+    {
+      "task_id": "40",
+      "tool": "7zip",
+      "verdict": "BENIGN",
+      "confidence": 0.04,
+      "fp": "False"
+    },
+    {
+      "task_id": "41",
+      "tool": "Notepad++",
+      "verdict": "BENIGN",
+      "confidence": 0.06,
+      "fp": "False"
+    },
+    {
+      "task_id": "43",
+      "tool": "PuTTY",
+      "verdict": "BENIGN",
+      "confidence": 0.09,
+      "fp": "False"
+    },
+    {
+      "task_id": "431",
+      "tool": "KeePass.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.26,
+      "fp": "False"
+    },
+    {
+      "task_id": "432",
+      "tool": "ipconfig.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "433",
+      "tool": "mmc.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.04,
+      "fp": "False"
+    },
+    {
+      "task_id": "434",
+      "tool": "putty.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.08,
+      "fp": "False"
+    },
+    {
+      "task_id": "435",
+      "tool": "rdpsign.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "436",
+      "tool": "sfc.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "437",
+      "tool": "whoami.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "438",
+      "tool": "SnippingTool.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.01,
+      "fp": "False"
+    },
+    {
+      "task_id": "439",
+      "tool": "SystemSettingsAdminFlows.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "44",
+      "tool": "WinDump",
+      "verdict": "BENIGN",
+      "confidence": 0.04,
+      "fp": "False"
+    },
+    {
+      "task_id": "440",
+      "tool": "git.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.07,
+      "fp": "False"
+    },
+    {
+      "task_id": "441",
+      "tool": "WizTree64.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.24,
+      "fp": "False"
+    },
+    {
+      "task_id": "442",
+      "tool": "bdeunlock.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "443",
+      "tool": "eudcedit.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "444",
+      "tool": "BitLockerWizardElev.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.02,
+      "fp": "False"
+    },
+    {
+      "task_id": "445",
+      "tool": "Taskmgr.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "446",
+      "tool": "windump.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.04,
+      "fp": "False"
+    },
+    {
+      "task_id": "447",
+      "tool": "conhost.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.01,
+      "fp": "False"
+    },
+    {
+      "task_id": "448",
+      "tool": "rdpshell.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "449",
+      "tool": "7zFM.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.03,
+      "fp": "False"
+    },
+    {
+      "task_id": "450",
+      "tool": "mstsc.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.09,
+      "fp": "False"
+    },
+    {
+      "task_id": "451",
+      "tool": "LicenseManagerShellext.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "452",
+      "tool": "msdt.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "453",
+      "tool": "peazip.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.07,
+      "fp": "False"
+    },
+    {
+      "task_id": "454",
+      "tool": "vlc.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.06,
+      "fp": "False"
+    },
+    {
+      "task_id": "455",
+      "tool": "PING.EXE",
+      "verdict": "BENIGN",
+      "confidence": 0.02,
+      "fp": "False"
+    },
+    {
+      "task_id": "95",
+      "tool": "ApproveChildRequest",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "96",
+      "tool": "bdeunlock.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.0,
+      "fp": "False"
+    },
+    {
+      "task_id": "97",
+      "tool": "BitLockerWizardElev.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.02,
+      "fp": "False"
+    },
+    {
+      "task_id": "98",
+      "tool": "calc.exe (malscore=8.0)",
+      "verdict": "BENIGN",
+      "confidence": 0.34,
+      "fp": "False"
+    },
+    {
+      "task_id": "99",
+      "tool": "conhost.exe",
+      "verdict": "BENIGN",
+      "confidence": 0.01,
+      "fp": "False"
+    }
+  ]
+}

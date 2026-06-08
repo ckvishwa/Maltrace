@@ -1,0 +1,122 @@
+{
+  "baseline_stratified": {
+    "f1": 0.9566,
+    "std": 0.0157
+  },
+  "family_holdout": {
+    "f1": 0.9749,
+    "std": 0.0075
+  },
+  "drop": -0.0183,
+  "folds": [
+    {
+      "held_families": [
+        "cryptolocker",
+        "darktequila",
+        "dexter",
+        "glupteba",
+        "guloader",
+        "nitol",
+        "nivdort",
+        "njrat",
+        "satana",
+        "stealc",
+        "trickbot",
+        "vidar",
+        "xworm"
+      ],
+      "f1": 0.9688,
+      "recall": 0.9688,
+      "precision": 0.9688,
+      "fn": 1,
+      "fp": 1
+    },
+    {
+      "held_families": [
+        "asyncrat",
+        "bladabindi",
+        "cerber",
+        "cobaltstrike",
+        "cridex",
+        "gandcrab",
+        "icedid",
+        "loadmoney",
+        "lumma",
+        "matsnu",
+        "radamant",
+        "remcosrat",
+        "sofacy"
+      ],
+      "f1": 0.9688,
+      "recall": 0.9688,
+      "precision": 0.9688,
+      "fn": 1,
+      "fp": 1
+    },
+    {
+      "held_families": [
+        "agenttesla",
+        "ardamax",
+        "blackbasta",
+        "carberp",
+        "conti",
+        "hupigon",
+        "kelihos",
+        "locky",
+        "petya",
+        "raccoon",
+        "sliver",
+        "upatre",
+        "zeus"
+      ],
+      "f1": 0.9688,
+      "recall": 0.9688,
+      "precision": 0.9688,
+      "fn": 1,
+      "fp": 1
+    },
+    {
+      "held_families": [
+        "amadey",
+        "azorult",
+        "cryptowall",
+        "dharma",
+        "hive",
+        "kovter",
+        "nanocore",
+        "petrwrap",
+        "phobos",
+        "redline",
+        "sinowal",
+        "vobfus"
+      ],
+      "f1": 0.9841,
+      "recall": 1.0,
+      "precision": 0.9688,
+      "fn": 0,
+      "fp": 1
+    },
+    {
+      "held_families": [
+        "asprox",
+        "dcrat",
+        "emotet",
+        "formbook",
+        "keypass",
+        "lockbit",
+        "mydoom",
+        "nsis",
+        "qakbot",
+        "shamoon",
+        "teslacrypt",
+        "wannacry",
+        "xdata"
+      ],
+      "f1": 0.9841,
+      "recall": 1.0,
+      "precision": 0.9688,
+      "fn": 0,
+      "fp": 1
+    }
+  ]
+}

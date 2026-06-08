@@ -1,13 +1,28 @@
+# Trained model
 *.pkl
 *.joblib
-dataset.csv
+
+# Malware samples - NEVER commit
+samples/
+BIOHAZARD/
+*.bin
 *.exe
 *.dll
-*.bson
-samples/
-storage/
+
+# API keys
+mb_collector_windows.py
+mb_collector_windows_secure.py
+*collector*.py
+
+# Sandbox data
+reports/
+analyses/
+logs/
+
+# Python
 __pycache__/
 *.pyc
 .env
-venv/
+
+# OS
 .DS_Store
