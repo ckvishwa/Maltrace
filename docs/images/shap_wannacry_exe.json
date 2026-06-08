@@ -1,0 +1,71 @@
+{
+  "sample": "wannacry.exe",
+  "verdict": "MALWARE",
+  "confidence": 95.0,
+  "malware_probability": 95.0,
+  "shap_base_value": 0.501,
+  "top_malware_indicators": [
+    {
+      "feature": "malscore",
+      "value": 10.0,
+      "shap_impact": 0.0885,
+      "direction": "malware"
+    },
+    {
+      "feature": "sig_severity_sum",
+      "value": 54.0,
+      "shap_impact": 0.0589,
+      "direction": "malware"
+    },
+    {
+      "feature": "has_rat",
+      "value": 1.0,
+      "shap_impact": 0.0502,
+      "direction": "malware"
+    },
+    {
+      "feature": "pe_num_sections",
+      "value": 4.0,
+      "shap_impact": 0.0473,
+      "direction": "malware"
+    },
+    {
+      "feature": "pe_is_64bit",
+      "value": 0.0,
+      "shap_impact": 0.0399,
+      "direction": "malware"
+    }
+  ],
+  "top_benign_indicators": [
+    {
+      "feature": "file_size",
+      "value": 3514368.0,
+      "shap_impact": -0.0158,
+      "direction": "benign"
+    },
+    {
+      "feature": "num_strings",
+      "value": 15894.0,
+      "shap_impact": -0.0148,
+      "direction": "benign"
+    },
+    {
+      "feature": "num_mutexes",
+      "value": 40.0,
+      "shap_impact": -0.0086,
+      "direction": "benign"
+    },
+    {
+      "feature": "num_dropped_files",
+      "value": 59.0,
+      "shap_impact": -0.0051,
+      "direction": "benign"
+    },
+    {
+      "feature": "suspicious_api_ratio",
+      "value": 0.0105,
+      "shap_impact": -0.0026,
+      "direction": "benign"
+    }
+  ]
+}
