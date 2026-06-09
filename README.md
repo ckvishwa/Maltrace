@@ -2,8 +2,7 @@
 
 Behavioral Malware Analysis Pipeline with Explainable AI.
 
-📖 **Full Technical Write-up:**  
-https://medium.com/@vishvatejack/building-maltrace-a-behavioral-malware-analysis-pipeline-with-explainable-ai-4b34db31ad21
+
 
 > CAPEv2 sandbox · Random Forest · SHAP Explainability · MITRE ATT&CK · 64 malware families
 
@@ -14,7 +13,8 @@ https://medium.com/@vishvatejack/building-maltrace-a-behavioral-malware-analysis
 [![Chaos](https://img.shields.io/badge/Pipeline%20Resilience-94%25-yellow)](docs/chaos_results.json)
 
 ---
-
+📖 **Full Technical Write-up:**  
+https://medium.com/@vishvatejack/building-maltrace-a-behavioral-malware-analysis-pipeline-with-explainable-ai-4b34db31ad21
 ## What This Is
 
 Most ML malware classifiers train and test on the same families — they measure memorization, not generalization. MalTrace is built around the honest test: **hold out entire malware families during training**, run the model on families it has never seen, and report what actually happens.
