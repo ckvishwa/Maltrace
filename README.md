@@ -1,4 +1,9 @@
-# MalTrace — Behavioral Malware Analysis Pipeline
+# MalTrace
+
+Behavioral Malware Analysis Pipeline with Explainable AI.
+
+📖 **Full Technical Write-up:**  
+https://medium.com/@vishvatejack/building-maltrace-a-behavioral-malware-analysis-pipeline-with-explainable-ai-4b34db31ad21
 
 > CAPEv2 sandbox · Random Forest · SHAP Explainability · MITRE ATT&CK · 64 malware families
 
