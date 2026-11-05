@@ -10,7 +10,6 @@ Behavioral Malware Analysis Pipeline with Explainable AI.
 [![F1 Score](https://img.shields.io/badge/Family--Holdout%20F1-0.975-brightgreen)](docs/VALIDATION.md)
 [![FP Rate](https://img.shields.io/badge/False%20Positive%20Rate-0%2F75-brightgreen)](docs/VALIDATION.md)
 [![Families](https://img.shields.io/badge/Malware%20Families-64-orange)](docs/family_holdout_results.json)
-[![Chaos](https://img.shields.io/badge/Pipeline%20Resilience-94%25-yellow)](docs/chaos_results.json)
 
 ---
 📖 **Full Technical Write-up:**  
@@ -53,6 +52,8 @@ CAPEv2 defaults to libvirt/KVM. Running Ubuntu inside VMware makes nested KVM un
 ---
 
 ## Results
+
+Family-held-out evaluation covers **37 multi-sample families (64 total)**. See [validation details](docs/VALIDATION.md) for the cohort and F1 calculation.
 
 ### Family-Held-Out Validation
 
