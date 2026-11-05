@@ -1,12 +1,10 @@
 {
   "timestamp": "2026-04-14T02:18:35.721666",
-  "resilience_pct": 94.4,
   "failures_detected": 6,
   "healer_triggered": 6,
   "recovered": 5,
   "total_tests": 6,
-  "avg_ttr_s": 0.03,
-  "verdict": "RESILIENT \u2014 pipeline handles failures and recovers.",
+  "aggregate_metric_status": "withdrawn: mixed live and code-level checks do not define one resilience percentage",
   "tests": [
     {
       "test": "bridge_kill",

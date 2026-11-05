@@ -100,18 +100,20 @@ mspaint.exe received malscore=9.0 from CAPEv2 signatures because it opens files,
 
 ### Chaos Engineering
 
-6 failure scenarios injected into the live pipeline:
+Six failure scenarios were assessed. One corrupt-report case was exercised live; several recovery
+paths were checked in code, and the bridge-kill case could not recover because the bridge was
+already offline. These mixed methods do not support an aggregate resilience percentage.
 
-| Scenario | Detected | Healer Triggered | Recovered |
-|----------|----------|-----------------|-----------|
-| Bridge kill | ✅ | ✅ | ❌ (bridge offline) |
-| Corrupt report injection | ✅ | ✅ | ✅ |
-| Invalid snapshot name | ✅ | ✅ | ✅ |
-| Partial BSON data | ✅ | ✅ | ✅ |
-| Execution timeout | ✅ | ✅ | ✅ |
-| Extractor robustness | ✅ | ✅ | ✅ |
+| Scenario | Validation |
+|----------|------------|
+| Bridge kill | Bridge already offline; recovery not demonstrated |
+| Corrupt report injection | Live recovery observed |
+| Invalid snapshot name | Healer rule path inspected |
+| Partial BSON data | Healer rule path inspected |
+| Execution timeout | Healer rule path inspected |
+| Extractor robustness | Local edge-case checks after null-guard fix |
 
-**94% resilience. One production bug found and fixed:** `feature_extractor.py` crashed on null behavior/network sections in malformed reports. Fixed with null-safe guards across all feature categories.
+**Pipeline bug found and fixed:** `feature_extractor.py` crashed on null behavior/network sections in malformed reports. The detailed [validation report](docs/VALIDATION.md) separates live observations from code-level checks.
 
 ---
 
